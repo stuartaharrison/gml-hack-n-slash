@@ -2,34 +2,34 @@
 switch (state) {
 	case "move":
 		#region Move State
-		if (keyboard_check(vk_right) || keyboard_check(ord("D"))) {
-			move_and_collide(4, 0);
+		if (input.right) {
+			move_and_collide(run_speed, 0);
 			image_xscale = 1;
 			sprite_index = s_skeleton_run;
 			image_speed = 0.6;
 		}
 
 		// get when key is left
-		if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
-			move_and_collide(-4, 0);
+		if (input.left) {
+			move_and_collide(run_speed * -1, 0);
 			image_xscale = -1;
 			sprite_index = s_skeleton_run;
 			image_speed = 0.6;
 		}
 
 		// get idle
-		if (!keyboard_check(vk_left) && !keyboard_check(ord("A")) && !keyboard_check(vk_right) && !keyboard_check(ord("D"))) {
+		if (!input.right && !input.left) {
 			sprite_index = s_skeleton_idle;
 			image_speed = 0.4;
 		}
 	
 		// roll
-		if (keyboard_check_pressed(vk_space)) {
+		if (input.roll) {
 			state = "roll";
 		}
 		
 		// attack 1
-		if (keyboard_check_pressed(vk_lcontrol)) {
+		if (input.attack) {
 			state = "attack one";
 		}
 		
@@ -40,11 +40,11 @@ switch (state) {
 		#region Roll State
 		set_state_sprite(s_skeleton_roll, 0.7, 0);
 		if (image_xscale == 1) {
-			move_and_collide(6, 0);
+			move_and_collide(roll_speed, 0);
 		}
 	
 		if (image_xscale == -1) {
-			move_and_collide(-6, 0);
+			move_and_collide(roll_speed * -1, 0);
 		}
 		#endregion
 		break;
@@ -52,7 +52,7 @@ switch (state) {
 	case "attack one":
 		#region Attack One State
 		set_state_sprite(s_skeleton_attack_one, 0.7, 0);
-		if (keyboard_check_pressed(vk_lcontrol) && animation_hit_frame_range(2, 4)) {
+		if (input.attack && animation_hit_frame_range(2, 4)) {
 			state = "attack two";
 		}
 		#endregion
@@ -61,6 +61,15 @@ switch (state) {
 	case "attack two":
 		#region Attack Two State
 		set_state_sprite(s_skeleton_attack_two, 0.7, 0);
+		if (input.attack && animation_hit_frame_range(2, 4)) {
+			state = "attack three";	
+		}
+		#endregion
+		break;
+		
+	case "attack three":
+		#region Attack Three State
+		set_state_sprite(s_skeleton_attack_three, 0.7, 0);
 		#endregion
 		break;
 }
