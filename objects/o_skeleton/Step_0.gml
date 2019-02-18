@@ -103,6 +103,12 @@ switch (state) {
 		#endregion
 		break;
 		
+	case "knockback":
+		#region Knockback State
+		knockback_state(s_skeleton_hitstun, "move");
+		#endregion
+		break;
+		
 	default:
 		state = "move";
 		break;
