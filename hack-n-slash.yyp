@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0d46254d-5443-462a-9b45-4ec590a41c54",
+            "Value": {
+                "id": "0e9ccb1c-d921-4c6f-a6cb-59a011a694b9",
+                "resourcePath": "sprites\\s_knight_idle\\s_knight_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "12733338-965d-4310-9a6c-856adb4126df",
             "Value": {
                 "id": "d5e2d778-b185-489e-924f-ac106c3db105",
@@ -100,6 +108,14 @@
                 "id": "a6d49d55-dc31-4b8b-ab3b-7469e4010648",
                 "resourcePath": "sprites\\s_skeleton_attack_two\\s_skeleton_attack_two.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2cf42358-9631-48e5-949d-90bab9e6128c",
+            "Value": {
+                "id": "1d851a49-7348-4e8a-941c-8f29c8d4e884",
+                "resourcePath": "views\\2cf42358-9631-48e5-949d-90bab9e6128c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -140,6 +156,14 @@
                 "id": "e4fc5d3f-104c-47a9-a395-75bc7090b904",
                 "resourcePath": "scripts\\animation_hit_frame_range\\animation_hit_frame_range.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "532f20d0-3336-484a-a636-3668a79d4ebe",
+            "Value": {
+                "id": "0ced811f-759a-46f5-9364-0cbea5d4610c",
+                "resourcePath": "sprites\\s_knight_die\\s_knight_die.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,6 +231,22 @@
             }
         },
         {
+            "Key": "860a9c17-0283-4e72-b633-47b3c4a23eca",
+            "Value": {
+                "id": "6c9b8903-260a-4be6-adc9-4df8ec4f99cc",
+                "resourcePath": "sprites\\s_knight_attack\\s_knight_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "87000b04-8339-4ae2-b2a9-4990e98bb1a7",
+            "Value": {
+                "id": "373e9235-93a9-479d-a334-fdb58957faaa",
+                "resourcePath": "sprites\\s_knight_hitstun\\s_knight_hitstun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f30d781-58b3-4c0a-8e12-431f8d3fc534",
             "Value": {
                 "id": "3141cd6a-5ed1-452a-b0e6-d9db0106f110",
@@ -263,6 +303,14 @@
             }
         },
         {
+            "Key": "b89d2240-1100-4307-9b4f-6014a43d058e",
+            "Value": {
+                "id": "155a8fa4-e7a2-4d98-9932-67e83ae8b950",
+                "resourcePath": "objects\\o_knight\\o_knight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb04e2a0-570f-409d-b07e-73e2908ba040",
             "Value": {
                 "id": "7dfdf6b7-7723-4632-89c7-db433d714194",
@@ -271,11 +319,27 @@
             }
         },
         {
+            "Key": "c7d936b4-636c-42aa-b6b2-fdd0edb998b6",
+            "Value": {
+                "id": "f1caf0c0-7997-45dd-986d-4764949caa89",
+                "resourcePath": "sprites\\s_knight_mask\\s_knight_mask.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "6960130f-b65b-4063-8513-832efbe88432",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd9a32c8-6508-483f-92e8-3ad5d8f36321",
+            "Value": {
+                "id": "b811275c-ac5a-455e-b73c-39afee27c78c",
+                "resourcePath": "sprites\\s_knight_walk\\s_knight_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
