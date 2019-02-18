@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "06477fbc-a3f0-4657-85b1-6b8abcafde60",
+            "Value": {
+                "id": "096e2922-001c-4b0d-83b8-8d7bafa71ffb",
+                "resourcePath": "objects\\o_hud\\o_hud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "085387c3-9822-4715-8017-381338fe05da",
             "Value": {
                 "id": "80da3bc1-0cca-4280-a739-70623c827534",
@@ -132,6 +140,14 @@
                 "id": "a6d49d55-dc31-4b8b-ab3b-7469e4010648",
                 "resourcePath": "sprites\\s_skeleton_attack_two\\s_skeleton_attack_two.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "27177d5a-2f91-4984-82f2-fd181fe45264",
+            "Value": {
+                "id": "ed05b0d0-c6af-459a-a113-800129276ae4",
+                "resourcePath": "fonts\\f_one\\f_one.yy",
+                "resourceType": "GMFont"
             }
         },
         {
