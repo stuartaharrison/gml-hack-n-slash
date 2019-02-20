@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "a79fe8c5-92b3-453c-a20c-d708f6c9b334",
+            "Value": {
+                "id": "82dd83b2-873e-425c-b6a2-893f37549941",
+                "resourcePath": "objects\\o_experience\\o_experience.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8614540-e6dd-45a0-bb42-232fc95b9bc9",
             "Value": {
                 "id": "fcad2e5e-5090-4406-958b-751b4c317e39",
@@ -443,6 +451,14 @@
             "Value": {
                 "id": "cc3b29a9-ed71-4e73-8aca-201799f383a0",
                 "resourcePath": "sprites\\s_grass\\s_grass.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c22013da-a05f-4bcf-bce4-16727245c1e2",
+            "Value": {
+                "id": "57d16cc7-f3e4-40be-9542-28114e77d562",
+                "resourcePath": "sprites\\s_skeleton_experience\\s_skeleton_experience.yy",
                 "resourceType": "GMSprite"
             }
         },
