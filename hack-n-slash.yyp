@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "055044ef-25f9-41e0-865b-59f8bebd62cb",
+            "Value": {
+                "id": "f6fc3a3d-5891-477b-827b-a47ad4e2c9ee",
+                "resourcePath": "views\\055044ef-25f9-41e0-865b-59f8bebd62cb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "06477fbc-a3f0-4657-85b1-6b8abcafde60",
             "Value": {
                 "id": "096e2922-001c-4b0d-83b8-8d7bafa71ffb",
@@ -60,6 +68,14 @@
                 "id": "80da3bc1-0cca-4280-a739-70623c827534",
                 "resourcePath": "sprites\\s_skeleton_attack_three\\s_skeleton_attack_three.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "08ee8508-e952-4c76-8b19-97f70d37d734",
+            "Value": {
+                "id": "c98785c6-8334-458d-88f0-172e5fc6127f",
+                "resourcePath": "objects\\o_enemy_parent\\o_enemy_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -180,6 +196,14 @@
                 "id": "1fa532f4-e033-466d-a432-f0b4ac050f7b",
                 "resourcePath": "views\\45751f19-53d1-4406-97fc-91721530c381.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4755b9b0-59d9-42cc-a22d-5a7069200dc9",
+            "Value": {
+                "id": "35fe477c-da90-473f-aae3-f4ec50b58495",
+                "resourcePath": "sprites\\s_crow\\s_crow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -324,6 +348,14 @@
                 "id": "373e9235-93a9-479d-a334-fdb58957faaa",
                 "resourcePath": "sprites\\s_knight_hitstun\\s_knight_hitstun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a833289-5654-4d5b-947c-18f21c1cb1f1",
+            "Value": {
+                "id": "1c653e34-c1b2-436d-a7ce-1b619ef0d637",
+                "resourcePath": "objects\\o_crow\\o_crow.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -503,11 +535,35 @@
             }
         },
         {
+            "Key": "d23962ae-4d0b-4441-998c-0607ed0046a6",
+            "Value": {
+                "id": "fd180fcb-4bf7-4627-8630-b34dd98f02c8",
+                "resourcePath": "objects\\o_skeleton_bone\\o_skeleton_bone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d445e3c4-d695-4e47-bb9e-a0681e1c27ee",
             "Value": {
                 "id": "525c37b3-2d06-4fb2-9d2d-a3fb604b68dd",
                 "resourcePath": "views\\d445e3c4-d695-4e47-bb9e-a0681e1c27ee.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d54d6626-2198-4dd8-bac4-160f97944343",
+            "Value": {
+                "id": "73446eed-ee1c-4bfe-bc42-7cca2e7e6e56",
+                "resourcePath": "sprites\\s_feather\\s_feather.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e284f848-8212-4d13-a0de-1a61de87115d",
+            "Value": {
+                "id": "49da6105-9fee-416d-8d0a-68f8c8727709",
+                "resourcePath": "objects\\o_enemy_spawner\\o_enemy_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
