@@ -22,7 +22,7 @@ switch (state) {
 		set_state_sprite(s_boss_attack, attack_speed, 0);
 		if (animation_hit_frame(7)) {
 			create_hitbox(x, y, self, s_boss_attack_damage, 10, 3, 20, image_xscale);
-			add_screen_shake(10, 16);
+			add_screenshake(10, 16);
 		}
 		if (animation_end()) {
 			state = "stall";
