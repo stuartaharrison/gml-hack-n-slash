@@ -29,7 +29,15 @@ if (instance_exists(o_skeleton)) {
 				if (i == 5) {
 					bone.image_angle = 130;	
 				}
-			}	
+			}
+			
+			ini_open("save.ini");
+			ini_write_real("Scores", "Kills", other.kills);
+			var highscore = ini_read_real("Scores", "Highscore", 0);
+			if (other.kills > highscore) {
+				ini_write_real("Scores", "Highscore", other.kills);	
+			}
+			ini_close();
 		}
 	}
 	else {
@@ -37,7 +45,7 @@ if (instance_exists(o_skeleton)) {
 		other.alarm[0] = 120;
 		add_screenshake(2, 5);
 		
-		if (creator.object_index == o_skeleton && other.hp <= 0) {
+		if (creator.object_index == o_skeleton && other.hp <= 0 && other.state != "death") {
 			o_skeleton.kills += 1;
 		}
 	}

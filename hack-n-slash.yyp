@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "3ebfeae6-b716-4ca5-87bb-d93ffe72feda",
+            "Value": {
+                "id": "971d4cb7-d42c-4588-979f-d53e9cbf362d",
+                "resourcePath": "sprites\\s_game_over\\s_game_over.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45751f19-53d1-4406-97fc-91721530c381",
             "Value": {
                 "id": "1fa532f4-e033-466d-a432-f0b4ac050f7b",
@@ -468,6 +476,14 @@
                 "id": "6c9b8903-260a-4be6-adc9-4df8ec4f99cc",
                 "resourcePath": "sprites\\s_knight_attack\\s_knight_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86e66664-c476-4e98-ba8e-83ec5ce47f75",
+            "Value": {
+                "id": "911621ff-a55e-4636-8379-c752dee5bc3c",
+                "resourcePath": "objects\\o_highscore\\o_highscore.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -724,6 +740,14 @@
                 "id": "fd180fcb-4bf7-4627-8630-b34dd98f02c8",
                 "resourcePath": "objects\\o_skeleton_bone\\o_skeleton_bone.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d37e7771-8a2e-47cb-821a-ac25dd9bdd1c",
+            "Value": {
+                "id": "b0070e81-9e74-4d4e-89db-1c92a3e6f30f",
+                "resourcePath": "rooms\\r_game_over\\r_game_over.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
