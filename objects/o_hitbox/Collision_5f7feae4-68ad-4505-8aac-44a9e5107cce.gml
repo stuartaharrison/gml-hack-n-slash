@@ -42,7 +42,7 @@ if (instance_exists(o_skeleton)) {
 	}
 }
 
-if (other.state != "death") {
+if (other.state != "death" && other.object_index != o_boss) {
 	other.state = "knockback";
 }
 
