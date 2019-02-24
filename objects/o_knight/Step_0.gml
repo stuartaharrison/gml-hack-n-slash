@@ -42,6 +42,12 @@ switch (state) {
 		#endregion
 		break;
 		
+	case "death":
+		#region Death State
+		death_state(s_knight_die);
+		#endregion
+		break;
+		
 	default:
 		state = "chase";
 		break;

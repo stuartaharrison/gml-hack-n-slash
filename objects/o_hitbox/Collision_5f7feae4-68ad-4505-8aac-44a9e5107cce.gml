@@ -5,12 +5,12 @@ if (creator == noone || creator == other || ds_list_find_index(hit_objects, othe
 ds_list_add(hit_objects, other);
 
 other.hp -= damage;
+repeat (10) {
+	instance_create_layer(other.x, other.y - 12, "Effects", o_hit_effect);	
+}
 
 if (instance_exists(o_skeleton)) {
-	if (creator.object_index == o_skeleton && other.hp <= 0) {
-		o_skeleton.kills += 1;
-	}
-	
+	// we hit the player
 	if (other.object_index == o_skeleton) {
 		add_screenshake(6, 10);
 		
@@ -31,8 +31,20 @@ if (instance_exists(o_skeleton)) {
 			}	
 		}
 	}
+	else {
+		// it's an enemy
+		other.alarm[0] = 120;
+		add_screenshake(2, 5);
+		
+		if (creator.object_index == o_skeleton && other.hp <= 0) {
+			o_skeleton.kills += 1;
+		}
+	}
 }
 
-other.state = "knockback";
+if (other.state != "death") {
+	other.state = "knockback";
+}
+
 other.image_xscale = -image_xscale;
 other.knockback_speed = knockback * image_xscale;
