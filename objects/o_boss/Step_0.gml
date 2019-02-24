@@ -21,6 +21,8 @@ switch (state) {
 		#region Attack State
 		set_state_sprite(s_boss_attack, attack_speed, 0);
 		if (animation_hit_frame(7)) {
+			audio_play_sound(a_medium_hit, 2, false);
+			audio_play_sound(a_big_hit, 5, false);
 			create_hitbox(x, y, self, s_boss_attack_damage, 10, 3, 20, image_xscale);
 			add_screenshake(10, 16);
 		}
